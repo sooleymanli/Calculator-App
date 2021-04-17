@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="body">
+        <table class="first-table">
+            <tr>
+                <td colspan="4" rowspan="1" class="black"><span id="netice1">0</span><br><br><span id="netice"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="reset" onclick="resett()">AC</td>
+                <td class="operation" onclick="emelBolme()">/</td>
+                <td class="operation" onclick="emelVurma()">X</td>
+            </tr>
+            <tr>
+                <td onclick="reqemSec(7)">7</td>
+                <td onclick="reqemSec(8)">8</td>
+                <td onclick="reqemSec(9)">9</td>
+                <td onclick="emelCixma()" class="operation">-</td>
+            </tr>
+            <tr>
+                <td onclick="reqemSec(4)">4</td>
+                <td onclick="reqemSec(5)">5</td>
+                <td onclick="reqemSec(6)">6</td>
+                <td onclick="emelToplama()" class="operation">+</td>
+            </tr>
+            <tr>
+                <td onclick="reqemSec(1)">1</td>
+                <td onclick="reqemSec(2)">2</td>
+                <td onclick="reqemSec(3)">3</td>
+                <td onclick="netice()" rowspan="2" class="eq">=</td>
+            </tr>
+            <tr>
+                <td onclick="reqemSec(0)" colspan="2">0</td>
+                <td onclick="noqteQoy()">.</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+
+</html>
