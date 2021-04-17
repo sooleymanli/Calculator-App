@@ -1,5 +1,4 @@
 // Süleymalı Fuad
-
 function reqemSec(nomre) {
     reqem = document.getElementById("netice").innerHTML;
     reqem = reqem + nomre;
